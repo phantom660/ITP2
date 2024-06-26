@@ -380,7 +380,7 @@ void SystemInit_ExtMemCtl(void)
   }
 
   /* Delay */
-  for (index = 0; index<1000; index++);
+  for (index = 0; index<1000; index++) {};
   
   /* PALL command */
   FMC_Bank5_6->SDCMR = 0x00000012;           
@@ -588,7 +588,7 @@ void SystemInit_ExtMemCtl(void)
   }
 
   /* Delay */
-  for (index = 0; index<1000; index++);
+  for (index = 0; index<1000; index++) {};
   
   /* PALL command */
   FMC_Bank5_6->SDCMR = 0x00000012;           
